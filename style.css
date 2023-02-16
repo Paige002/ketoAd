@@ -11,11 +11,12 @@ body {
 }
 
 /* Center the content and set a maximum width */
+
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 50px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /* Add a heading */
