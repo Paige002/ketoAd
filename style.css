@@ -1,0 +1,68 @@
+/* Set a background image or color */
+body {
+  background-image: url('https://tinypic.host/images/2023/02/16/C27D0A8E-DFB1-46BC-9232-8D142B4ED951.jpg');
+  background-color: #F5F5F5;
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: yes-repeat;
+  background-size: cover;
+
+}
+
+/* Center the content and set a maximum width */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Add a heading */
+h1 {
+  font-size: 96px;
+  font-weight: bold;
+  color: #800080;
+  margin-bottom: 20px;
+}
+
+/* Add a subheading */
+h2 {
+  font-size: 36px;
+  color: #8B668B;
+  margin-bottom: 40px;
+}
+
+/* Add a paragraph */
+p {
+  font-size: 18px;
+  color: #800080;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Add a button */
+.button {
+  display: inline-block;
+  background-color: #FF9900;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #FF6600;
+}
+
+/* Add a footer */
+.footer {
+  font-size: 14px;
+  color: #999999;
+  margin-top: 50px;
+}
+
+
